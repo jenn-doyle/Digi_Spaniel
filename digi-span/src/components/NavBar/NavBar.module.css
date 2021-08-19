@@ -73,7 +73,7 @@
 }
 
 @media screen and (max-device-width: 786px) {
-  .linkFlex {
+  /* .linkFlex {
     height: 35px;
     width: 300px;
     margin-left: 90px;
@@ -90,8 +90,8 @@
   }
   .links::before {
     background: #506473;
-  }
-  /* .navFlex {
-    display: none;
   } */
+  .navFlex {
+    display: none;
+  }
 }

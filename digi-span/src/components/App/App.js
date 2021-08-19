@@ -7,6 +7,7 @@ import Footer from "../Footer";
 import ProjectContent from "../Project Content";
 import ExploreContent from "../Explore Content";
 import Logo from "../Logo";
+import HamMenu from "../HamMenu";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className={css.appContent}>
         <Logo />
         <NavBar />
+        <HamMenu />
         <div className={css.blueContainer}>
           <img src={spanielBg} className={css.blueSpaniel} alt="spaniel-dog" />
         </div>
