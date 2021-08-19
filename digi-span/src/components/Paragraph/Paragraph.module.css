@@ -1,0 +1,31 @@
+.mainText {
+  color: #506473;
+  font: normal normal normal 21px/38px Open Sans;
+  letter-spacing: 0px;
+  opacity: 1;
+  line-height: 37.8px;
+  width: 90%;
+}
+
+@media screen and (max-device-width: 1600px) {
+  .mainText {
+    font-size: 1.2em;
+    line-height: 31px;
+  }
+}
+
+@media screen and (max-device-width: 1024px) {
+  .mainText {
+    font-size: 16px;
+    line-height: 30px;
+    width: 85%;
+  }
+}
+
+@media screen and (max-device-width: 786px) {
+  .mainText {
+    font-size: 0.8em;
+    line-height: 18px;
+    width: 90%;
+  }
+}

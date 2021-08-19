@@ -1,0 +1,49 @@
+.sideContain {
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+  margin-top: 150px;
+}
+
+.theIcon {
+  height: 18px;
+  width: 18px;
+  margin-left: 10px;
+}
+
+@media screen and (max-device-width: 1600px) {
+  .sideContain {
+    margin-left: 150px;
+    margin-top: 75px;
+  }
+}
+
+@media screen and (max-device-width: 1024px) {
+  .sideContain {
+    margin-left: -10px;
+    margin-top: 30px;
+    height: 300px;
+  }
+  .theIcon {
+    height: 14px;
+    width: 14px;
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-device-width: 786px) {
+  .sideContain {
+    margin-left: 50px;
+    margin-top: 25px;
+    height: 260px;
+    width: 300px;
+  }
+  .theIcon {
+    height: 10px;
+    width: 10px;
+    margin-left: 4px;
+  }
+  .marketContent {
+    margin-left: 40px;
+  }
+}

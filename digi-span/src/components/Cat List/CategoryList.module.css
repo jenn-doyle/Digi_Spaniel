@@ -1,0 +1,43 @@
+.catBtn {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #506473;
+  font-size: 1.3em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  opacity: 1;
+  letter-spacing: 0.53px;
+  line-height: 2.6em;
+}
+
+.myIcon {
+  visibility: hidden;
+}
+
+.catBtn:hover + .myIcon {
+  visibility: visible;
+}
+
+@media screen and (max-device-width: 1600px) {
+  .catBtn {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-device-width: 1024px) {
+  .catBtn {
+    font-size: 1em;
+    letter-spacing: 0.2px;
+  }
+}
+
+@media screen and (max-device-width: 786px) {
+  .catBtn {
+    font-size: 0.7em;
+    letter-spacing: 0.1px;
+    line-height: 1.8em;
+    margin-left: -45px;
+  }
+}

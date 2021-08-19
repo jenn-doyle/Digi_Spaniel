@@ -1,0 +1,48 @@
+.unleashContent {
+  width: 445px;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+
+.title {
+  color: #c0345e;
+  opacity: 0.75;
+  line-height: 72px;
+  letter-spacing: 0.8px;
+  height: 57px;
+  font: normal normal 600 16px/72px Open Sans;
+}
+
+@media screen and (max-device-width: 1600px) {
+  .unleashContent {
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-device-width: 1024px) {
+  .unleashContent {
+    margin-left: 30px;
+    margin-top: 60px;
+    width: 330px;
+  }
+  .title {
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-device-width: 786px) {
+  .unleashContent {
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 300px;
+  }
+  .title {
+    letter-spacing: 0.2px;
+    height: 15px;
+    font-size: 0.8em;
+  }
+}

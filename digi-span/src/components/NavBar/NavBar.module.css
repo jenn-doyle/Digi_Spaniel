@@ -1,0 +1,97 @@
+.navFlex {
+  position: sticky;
+}
+
+.linkFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 90px;
+  justify-content: flex-end;
+  margin-right: 200px;
+}
+
+.links {
+  text-decoration: none;
+  font-size: 1.25em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  line-height: 27px;
+  margin: 30px;
+  position: relative;
+  color: #ffffff;
+  opacity: 1;
+  z-index: 1000;
+}
+
+/*for hover effect*/
+.links::before {
+  background: #ffffff;
+  bottom: -5px;
+  content: "";
+  height: 2px;
+  position: absolute;
+  transition: width 0.25s ease-in-out;
+  width: 0%;
+}
+
+.links:hover::before {
+  width: 100%;
+}
+
+.active {
+  font-size: 1.8em;
+  z-index: 1000;
+}
+
+@media screen and (max-device-width: 1600px) {
+  .linkFlex {
+    margin-right: 50px;
+    height: 70px;
+  }
+  .links {
+    font-size: 1.1em;
+    margin: 20px;
+  }
+  .active {
+    font-size: 1.7em;
+  }
+}
+
+@media screen and (max-device-width: 1024px) {
+  .linkFlex {
+    margin-right: 50px;
+    height: 50px;
+  }
+  .links {
+    font-size: 0.8em;
+    margin: 15px;
+  }
+  .active {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-device-width: 786px) {
+  .linkFlex {
+    height: 35px;
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 80px;
+    z-index: -1;
+  }
+  .links {
+    font-size: 1.1em;
+    margin: 8px;
+    color: #506473;
+  }
+  .active {
+    font-size: 1.3em;
+  }
+  .links::before {
+    background: #506473;
+  }
+  /* .navFlex {
+    display: none;
+  } */
+}

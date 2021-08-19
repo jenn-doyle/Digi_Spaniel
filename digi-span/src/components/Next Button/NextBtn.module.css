@@ -1,0 +1,37 @@
+.btnNext {
+  padding: 10px 20px;
+  background-color: #50647380;
+  font-size: 30px;
+  color: #506473;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.btnNext:active {
+  position: relative;
+  top: 1px;
+}
+
+.btnNext:hover {
+  background-color: #112d40;
+  color: #ffffff;
+}
+
+@media screen and (max-device-width: 1024px) {
+  .btnNext {
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-device-width: 786px) {
+  .btnNext {
+    padding: 15px 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+}
